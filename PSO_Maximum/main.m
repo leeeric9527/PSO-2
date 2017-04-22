@@ -68,8 +68,7 @@ for i=1:maxgen
         
 end
 %% analyze results
-xx
 plot(yy)
 title('best individual fitness','fontsize',12);
 xlabel('iters','fontsize',12);ylabel('fitness','fontsize',12);
-pause(4);
+pause(20);
